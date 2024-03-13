@@ -52,20 +52,35 @@
 
 // sir class test 
 
-const shop=['yango','bloomberg','nicrosoft','uber','google','ibm','netflix']
-const input =document.querySelector(#input)
-const h1 =document.querySelector('h1')
+// const shop=['yango','bloomberg','nicrosoft','uber','google','ibm','netflix']
+// const input =document.querySelector('#input')
+// const h1 =document.querySelector('h1')
+// function getfriuts(){
+//     console.log=(input.value)
+//     if(shop.includes(input.value)){
+//         console.log ('friut available h')
+//         h1.innerHTML=`${input.value} is avalable`
+//     }else{
+//         console.log ('friut available ni h')
+//         h1.innerHTML=`${input.value} is not avalable`
+//     }
+// input.value=''
+// }
+
+
+const shop=['mango','banana','chikku','orange','apple','tomato']
+const push= document.querySelector('#input')
+const h1 = document.querySelector('h1')
 function getfriuts(){
-    console.log=(input.value)
+    console.log(input.value)
     if(shop.includes(input.value)){
-        console.log ('friut available h')
-        h1.innerHTML=`${input.value} is avalable`
+        console.log('friut available h')
+        h1.innerHTML=`${input.value} is available`
     }else{
-        console.log ('friut available ni h')
-        h1.innerHTML=`${input.value} is not avalable`
+        console.log ('fruit available ni h')
+        h1.innerHTML=`${input.value} is not available`
     }
 
 }
-
 
 
