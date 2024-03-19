@@ -6,6 +6,16 @@
 // friuts.splice(2,2 , 'puri') hatana add bi krna
 
 
+
+//  const friuts=['banana', 'mango' ,'lemon','chikku' , 'loki']
+
+//  const b=friuts.splice(2,1, 'chana')
+
+//  console.log(friuts) splice  ===>>  hatana add bi krna
+
+
+
+
 // const companies=['bloomberg','nicrosoft','uber','google','ibm','netflix']
 // const b =companies.includes('uber')
 // console.log(b)     ===>>          includes search ka kaam krta h
@@ -68,19 +78,50 @@
 // }
 
 
-const shop=['mango','banana','chikku','orange','apple','tomato']
-const push= document.querySelector('#input')
-const h1 = document.querySelector('h1')
-function getfriuts(){
-    console.log(input.value)
-    if(shop.includes(input.value)){
-        console.log('friut available h')
-        h1.innerHTML=`${input.value} is available`
-    }else{
-        console.log ('fruit available ni h')
-        h1.innerHTML=`${input.value} is not available`
-    }
+// const shop=['mango','banana','chikku','orange','apple','tomato']
+// const push= document.querySelector('#input')
+// const h1 = document.querySelector('h1')
+// function getfriuts(){
+//     console.log(input.value)
+//     if(shop.includes(input.value)){
+//         console.log('friut available h')
+//         h1.innerHTML=`${input.value} is available`
+//     }else{
+//         console.log ('fruit available ni h')
+//         h1.innerHTML=`${input.value} is not available`
+//     }
 
-}
+// }
+
+// for loops
+
+
+// let friuts =['mango','banana','chikku','orange','apple','tomato']
+
+
+// const ul =document.querySelector('ul')
+
+// for(let i=0 ; i <  friuts.length ; i++){
+//     console.log( 'Element of', i ,'is',friuts[i])
+//     ul.innerHTML+=`<li>${friuts[i]}</li>`
+
+// }
+
+
+// let friuts =['mango','banana','chikku','orange','apple','tomato']
+
+// const ul =document.querySelector('ul')
+// function getfriuts(){
+//     ul.innerHTML='' 
+//     ul.innerHTML
+// for (let i=0 ; i < friuts.length ;i++){
+//     console.log(i,friuts[i])
+//     ul.innerHTML+=`<li>${friuts[i]}</li>`
+// }
+    
+// }
+
+
+
 
 
